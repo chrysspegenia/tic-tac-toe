@@ -21,6 +21,7 @@ body {
     100px repeat(4, 1fr) 100px 50px
     / 100px repeat(3, 1fr) 100px;
   place-items: center;
+  position: relative;
 }
 
 .game-area {
@@ -426,8 +427,9 @@ body {
   box-shadow: inset -10px -10px 15px var(--light-shadow),
     inset 12px 12px 12px var(--dark-shadow);
   z-index: 3;
-  opacity: 0;
-  transform: translateY(600px);
+  opacity: 1;
+  bottom: calc(-60% + -100px);
+  /* transform: translateY(600px); */
   transition: all 0.3s cubic-bezier(0, -0.65, 1, 1.65);
 }
 
@@ -553,7 +555,9 @@ body {
 
 .active-modal {
   opacity: 1;
-  transform: translate(0);
+  /* transform: translate(0); */
+  bottom: 0;
+  transform: translateY(calc(-50% + 100px));
 }
 
 @media screen and (width < 1450px) {
