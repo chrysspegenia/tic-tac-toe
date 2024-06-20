@@ -16,9 +16,9 @@ An interactive javascript application where users can enjoy the classic game of 
 
    - Integrated with the core logic of Tic-Tac-Toe to automatically determine the winner of each round, providing accurate and instant results.
 
-4. **Player Symbol Choice:**
+4. **Player Icon Choice:**
 
-   - Allows players to choose different symbols for their game pieces, adding a personalized touch to the gameplay.
+   - Allows players to choose different icons for their game pieces, adding a personalized touch to the gameplay.
 
 5. **Match History:**
 
