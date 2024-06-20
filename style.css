@@ -429,7 +429,6 @@ body {
   z-index: 3;
   opacity: 1;
   bottom: calc(-60% + -100px);
-  /* transform: translateY(600px); */
   transition: all 0.3s cubic-bezier(0, -0.65, 1, 1.65);
 }
 
@@ -511,11 +510,6 @@ body {
   height: 8px;
 }
 
-/* #history-display::-webkit-scrollbar-thumb{
-    background: rgba(0,0,0,0.3);
-    border-radius:10px;
-} */
-
 #history-display::-webkit-scrollbar-thumb:hover {
   background: linear-gradient(45deg, #ffcb52, #ff7b02, #ff33cc);
 }
@@ -553,9 +547,8 @@ body {
   font-size: 3.5rem;
 }
 
-.active-modal {
+.history-section.active-modal {
   opacity: 1;
-  /* transform: translate(0); */
   bottom: 0;
   transform: translateY(calc(-50% + 100px));
 }
